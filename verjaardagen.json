@@ -1,120 +1,192 @@
 [
     {
+    "name": "Olivier",
+    "month": "9",
+    "day": "7",
+    "year": "1998"
+    },
+    {
+    "name": "Isabel",
+    "month": "10",
+    "day": "4",
+    "year": "2000"
+    },
+    {
+    "name": "Kimo",
+    "month": "3",
+    "day": "17",
+    "year": "2000"
+    },
+    {
+    "name": "Tisha",
+    "month": "4",
+    "day": "27",
+    "year": "2001"
+    }, 
+    {
+    "name": "Beer",
+    "month": "4",
+    "day": "3",
+    "year": "2001"
+    },
+    {
+    "name": "Per",
+    "month": "5",
+    "day": "8",
+    "year": "1999"
+    }, 
+    {
+    "name": "Claire",
+    "month": "6",
+    "day": "3",
+    "year": "2002"
+    },   
+    {
+    "name": "Joost",
+    "month": "10",
+    "day": "9",
+    "year": "1999"
+    }, 
+    {
+    "name": "Lianna",
+    "month": "10",
+    "day": "10",
+    "year": "2001"
+    }, 
+    {
+    "name": "Isavie",
+    "month": "7",
+    "day": "24",
+    "year": "2000"
+    },
+    {
+    "name": "Celine",
+    "month": "11",
+    "day": "29",
+    "year": "1999"
+    },
+    {
+    "name": "Bram",
+    "month": "2",
+    "day": "27",
+    "year": "2000"
+    },
+    {
+    "name": "dafne",
+    "month": "4",
+    "day": "27",
+    "year": "1998"
+    },
+    {
+    "name": "Loek",
+    "month": "8",
+    "day": "29",
+    "year": "2002"
+    },
+    {
+    "name": "Job",
+    "month": "9",
+    "day": "21",
+    "year": "2002"
+    }, 
+    {
+    "name": "Franka",
+    "month": "7",
+    "day": "9",
+    "year": "2002"
+    },
+    {
+    "name": "Tessa",
+    "month": "5",
+    "day": "30",
+    "year": "2002"
+    },
+    {
+    "name": "Elsbeth",
+    "month": "10",
+    "day": "15",
+    "year": "2000"
+    },
+    {
+    "name": "Anmar",
+    "month": "8",
+    "day": "28",
+    "year": "2002"
+    },
+    {
+    "name": "Baima",
+    "month": "4",
+    "day": "26",
+    "year": "2002"
+    },
+    {
+    "name": "Djuna",
+    "month": "9",
+    "day": "27",
+    "year": "2000"
+    },
+    {
+    "name": "Femke",
+    "month": "2",
+    "day": "5",
+    "year": "2002"
+    },
+    {
+    "name": "Jara",
+    "month": "3",
+    "day": "17",
+    "year": "1999"
+    },
+    {
+    "name": "Hanneke",
+    "month": "2",
+    "day": "3",
+    "year": "2000"
+    },
+    {
+    "name": "Katja",
+    "month": "4",
+    "day": "10",
+    "year": "2003"
+    },
+    {
+    "name": "Max",
+    "month": "11",
+    "day": "28",
+    "year": "1999"
+    },
+    {
+    "name": "Rob",
+    "month": "5",
+    "day": "13",
+    "year": "1999"
+    },
+    {
+    "name": "Steven",
+    "month": "8",
+    "day": "5",
+    "year": "2000"
+    },
+    {
+    "name": "Veertje",
+    "month": "9",
+    "day": "17",
+    "year": "2001"
+    },
+    {
+    "name": "Teun",
+    "month": "9",
+    "day": "26",
+    "year": "1984"
+    },
+    {
     "name": "Thomas",
     "month": "3",
     "day": "17",
     "year": "1998"
     },
     {
-    "naam": "Olivier",
-    "month": "9",
-    "day": "7",
-    "year": "1998"
-    },
-    {
-    "naam": "Isabel",
-    "month": "10",
-    "day": "4",
-    "year": "2000"
-    },
-    {
-    "naam": "Kimo",
-    "month": "3",
-    "day": "17",
-    "year": "2000"
-    },
-    {
-    "naam": "Tisha",
-    "month": "4",
-    "day": "27",
-    "year": "2001"
-    }, 
-    {
-    "naam": "Beer",
-    "month": "4",
-    "day": "3",
-    "year": "2001"
-    },
-    {
-    "naam": "Per",
-    "month": "5",
-    "day": "8",
-    "year": "1999"
-    }, 
-    {
-    "naam": "Claire",
-    "month": "6",
-    "day": "3",
-    "year": "2002"
-    },   
-    {
-    "naam": "Joost",
-    "month": "10",
-    "day": "9",
-    "year": "1999"
-    }, 
-    {
-    "naam": "Lianna",
-    "month": "10",
-    "day": "10",
-    "year": "2001"
-    }, 
-    {
-    "naam": "Isavie",
-    "month": "7",
-    "day": "24",
-    "year": "2000"
-    },
-    {
-    "naam": "Celine",
-    "month": "11",
-    "day": "29",
-    "year": "1999"
-    },
-    {
-    "naam": "Bram",
-    "month": "2",
-    "day": "27",
-    "year": "2000"
-    },
-    {
-    "naam": "dafne",
-    "month": "4",
-    "day": "27",
-    "year": "1998"
-    },
-    {
-    "naam": "Loek",
-    "month": "8",
-    "day": "29",
-    "year": "2002"
-    },
-    {
-    "naam": "Job",
-    "month": "9",
-    "day": "21",
-    "year": "2002"
-    }, 
-    {
-    "naam": "Isavie",
-    "month": "7",
-    "day": "9",
-    "year": "2002"
-    },
-    {
-    "naam": "Tessa",
-    "month": "5",
-    "day": "30",
-    "year": "2002"
-    },
-    {
-    "naam": "Elsbeth",
-    "month": "10",
-    "day": "15",
-    "year": "2000"
-    },
-    {
-    "naam": "Feline",
+    "name": "Feline",
     "month": "6",
     "day": "16",
     "year": "2001"

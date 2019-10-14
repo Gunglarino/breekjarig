@@ -15,8 +15,10 @@
   <div class="container">
       <button onclick="breekJarig()" id="breekjarig"><img src="images/logoHat.png"></button>
       <div id="bdContainer">
-        
       </div>
+      <div id="sadStick"><img src="images/sad.png"></div>
+      <div id="happyStick"><img src="images/happy.png"></div>
+      
   </div>
   <div id="jsonData"></div>
   <script>
@@ -28,70 +30,68 @@
       });
 
     function breekJarig() {
-      // function of clicking the big birthday button
       var array = birtdays;
       var button = document.getElementById("breekjarig");
       var container = document.getElementById("bdContainer");
+      var happy = document.getElementById("happyStick");
+      var sad = document.getElementById("sadStick");
       button.style.display = "none";
       container.style.display = "block";
+      happy.style.display = "block";
 
-
-
-      // date = new Date(2019,2,17);
+      // var date = new Date(2019,2,17); // thomas jara kimo
       var date = new Date();
       var m = date.getMonth();
       var d = date.getDate();
       var aantal = 0;
       var least = 600;
       var index = 50;
+      var div = document.getElementById('bdContainer');
       // START LOOPING BIRTDAY
       // loop though all birthdays
         for (i = 0; i < array.length; i++) {
-          // if it is same month and day it is someones birtday
+          // if it is same month and day it is someones birthday
           if (array[i].month-1 == m && array[i].day == d) {
-              console.log("gefeliciteerd");
-              console.log(array[i])
+              confetti.start();
+              age = date.getFullYear()-array[i].year;
+              div.innerHTML += "Feestje,<br>"+ array[i].name  + " is "+ age+ " geworden!<br><br>" ;
+              
               index = i;
               aantal =+ 1;
+              document.body.style.backgroundColor = "#f5ee31";
             }
             // else check in how many days it is for this year
           else {
             var year = date.getFullYear();
             var bdDate = new Date (year,array[i].month-1,array[i].day);
             var Difference_In_Time = bdDate.getTime() - date.getTime(); 
-            var Difference_In_Days = Math.round(Difference_In_Time / (1000 * 3600 * 24)+1); 
-            
+            var Difference_In_Days = Math.ceil(Difference_In_Time / (1000 * 3600 * 24)); 
             // check if not negative
             if (Math.sign(Difference_In_Days) == 1) {
               // check if this is closest date to todays date
               if(Difference_In_Days < least) {
                 least = Difference_In_Days;
+                console.log(Difference_In_Days);
               }
             }
           }
-      
         }
         // END OF LOOP
 
         // if aantal = 0 show least in container if least is 600 than say come back next year.
-        var div = document.getElementById('bdContainer');
         if (aantal == 0) {
+          sad.style.display = "block";
+          happy.style.display = "none";
           if (least == 1) {
-            word = least+" dag wachten"
+            word = least+" dag wachten tot iemand jarig is";
           } else if (least == 600) {
             word = "even wachten tot het volgende jaar is begonnen dan werk ik weer";
           } else {
-            word = least+" dagen wachten"
+            word = least+" dagen wachten tot iemand jarig is";
           }
           div.innerHTML += 'Helaas, u moet nog '+ word;
         }
-        // if aantal = 1 use index and fill container with birtday person
-        if (aantal == 1) {
-          confetti.start();
-          age = date.getFullYear()-array[index].year;
-          div.innerHTML += "Feestje,"+ array[index].name  + " is vandaag "+ age+ " geworden!!" ;
-        }
-        // if aantal > 1 multiple birthdays and fill container with it
+
     }
   </script>
 
